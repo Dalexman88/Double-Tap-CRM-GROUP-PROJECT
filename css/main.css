@@ -1,178 +1,366 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
 #nav {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0px 1%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px 1%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #logo {
-    width: 70%;
-    order: 1;
-    padding-top:}
+  width: 70%;
+  order: 1;
+  padding-top:}
 
 #navbar {
-    order: 3;
-    width: 100%;
-    margin-top: 20px;
+  order: 3;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .nav {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 #navbar a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #navbar a:hover {
-    color: #0850f8;
+  color: #0850f8;
 }
 
 #top-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  order: 2;
 }
 
 .top-buttons {
-    height: 50px;
-    font-size: 15px;
-    border-radius: 10px;
-    padding-top: 4px;
-    margin: 0px 0.5%;
-    text-align: center;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-top: 4px;
+  margin: 0px 0.5%;
+  text-align: center;
 }
 
 .blue-button {
-    color: white;
-    background-color: #0850f8;
-    border-color: #0850f8;
-    width: 110px;
+  color: white;
+  background-color: #0850f8;
+  border-color: #0850f8;
+  width: 110px;
 }
 
 .blue-button-link a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .blue-button:hover {
-    color: #0850f8;
-    background-color: #e5efff;
+  color: #0850f8;
+  background-color: #e5efff;
 }
 
 .white-button {
-    color: #0850f8;
-    background-color: white;
-    border: solid;
-    border-color: #0850f8;
+  color: #0850f8;
+  background-color: white;
+  border: solid;
+  border-color: #0850f8;
 }
 
 .white-button-link a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .white-button:hover {
-    color: white;
-    background-color: #707070;
+  color: white;
+  background-color: #707070;
+}
+
+.head_img3 {
+  margin-top: 10px;
+  margin-left: 1000px;
+  height: 50%;
+  width: 25%;
+}
+.header_text3 {
+  margin-left: 10vh;
+  margin-top: -27%;
+  font-size: 45px;
+  font-weight: bold;
+}
+.header_text4 {
+  margin-left: 10vh;
+  margin-top: -2.5%;
+  font-size: 26px;
+}
+.small_text3 {
+  margin-left: 10vh;
+  font-size: 14.5px;
+  margin-top: -1%;
+  margin-bottom: 0%;
+  color: rgb(167, 165, 165);
+  font-weight: bold;
+}
+.sign_up_free_btn3 {
+  margin-left: 10vh;
+  width: 9.5%;
+  height: 40px;
+  border: none;
+  border-radius: 9px;
+  margin-top: 20px;
+  background-color: rgb(0, 78, 241);
+  color: white;
+  cursor: pointer;
+}
+.chat_with_us_btn3 {
+  width: 9.5%;
+  height: 40px;
+  border: 1px solid rgb(0, 78, 241);
+  border-radius: 9px;
+  background-color: white;
+  color: rgb(0, 78, 241);
+  cursor: pointer;
+}
+.query3 {
+  margin-left: 10vh;
+  font-size: 14.5px;
+  color: rgb(129, 129, 129);
+}
+li.small-list-item::marker {
+  color: rgb(0, 78, 241);
+}
+.small_three_points {
+  margin-left: 5vh;
+  font-size: 9.8px;
+  margin-top: -15px;
+}
+ul.small_three_points li.small-list-item {
+  list-style: none;
+  display: inline;
+  margin-right: -10em;
+
+}
+ul.small_three_points li.small-list-item:after {
+  content: " \00B7";
+  color: rgb(0, 78, 241);
+  font-size: 40px;
+  vertical-align: middle;
+  margin-right: 2.7em;
+}
+ul.small_three_points li.small-list-item:last-child:after {
+  content: none;
+}
+hr {
+  width: 67%;
+}
+.second_heading_text {
+  text-align: center;
+}
+.a_new_way {
+  font-size: 10px;
+}
+
+.four_images {
+  text-align: center;
+}
+.block img {
+  width: 30px;
+  height: 30px;
+  margin-top: 1em;
+}
+.block1 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 1em;
+}
+.block {
+  display: inline-block;
+  width: 80px;
+  height: 85px;
+  background-color: rgb(0, 78, 241);
+  border-radius: 10px;
+  border: 1px solid rgb(184, 184, 184);
+  margin: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.block1 {
+  display: inline-block;
+  width: 80px;
+  height: 85px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(184, 184, 184);
+  margin: 5em;
+  margin-top: 1em;
+}
+.captions {
+  font-size: 10px;
+  color: rgb(129, 129, 129);
+}
+.captions1 {
+  font-size: 10px;
+  color: white;
+}
+
+.credit-card {
+  display: inline-block;
+  width: 365px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border: 1.5px solid rgb(214, 214, 214);
+  margin: 13em;
+  margin-top: -1em;
+}
+.credit-card img {
+  width: 330px;
+  height: 190px;
+  margin-top: 8em;
+  margin-left: 1em;
+}
+.blue-space {
+  width: 605px;
+  height: 400px;
+  color: white;
+  background-color: rgb(0, 78, 241);
+  border-radius: 0px 10px 10px 0px;
+  border: 1.5px solid rgb(214, 214, 214);
+  text-align: left;
+  margin-left: 575px;
+  margin-top: -611px;
+}
+.large-list {
+  color: white
+}
+.blue-heading1 {
+  margin-left: 4vh;
+  font-size: 23px;
+  font-weight: 20px;
+  margin-top: 70px;
+}
+.blue-heading2 {
+  margin-left: 4vh;
+  font-size: 10px;
+  font-weight: bold;
+}
+.large-list {
+  font-size: 7px;
+  line-height: 2.8;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.learn-more-btn {
+  margin-left: 4vh;
+  width: 26%;
+  height: 32px;
+  border: 1.75px solid white;
+  border-radius: 5px;
+  background-color: rgb(0, 78, 241);
+  color: white;
+  cursor: pointer;
 }
 
 .green-button {
-    color: white;
-    background-color: #84c73c;
-    border: solid;
-    border-color: #0850f8;
+  color: white;
+  background-color: #84c73c;
+  border: solid;
+  border-color: #0850f8;
 }
 
 #top-sign-in-button {
-    width: 118px;
-    min-width: 118px;
-    margin-right: 5%;
+  width: 118px;
+  min-width: 118px;
+  margin-right: 5%;
 }
 .single-arrow {
-    top: 50%;
-    left: 90%;
+  top: 50%;
+  left: 90%;
 }
 
 .sign-up-single-arrow {
-    top: 50%;
-    left: 90%;
+  top: 50%;
+  left: 90%;
 }
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0850f8;
-    color: white;
-    margin-top: 100px;
-    height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0850f8;
+  color: white;
+  margin-top: 100px;
+  height: 300px;
 }
 #footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 380px;
-    max-width: 100%;
-    min-width: 380px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 380px;
+  max-width: 100%;
+  min-width: 380px;
+  text-align: center;
 }
 #footer-header h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 #get-started {
-    width: 100%;
-    margin: 1% 0;
+  width: 100%;
+  margin: 1% 0;
 }
 #get-started h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 #footer-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .footer-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    margin-top: 0.5%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 15px;
-    border-width: 2px;
-    border-color: #0850f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin-top: 0.5%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #0850f8;
 }
 #get-started-button {
-    min-width: 180px;
+  min-width: 180px;
 }
 .button-margin {
-    margin-right: 10vw;
+  margin-right: 10vw;
 }
 #get-started-button {
-    width: 245px;
+  width: 245px;
 }
 #footer-chat-button {
-    width: 245px;
+  width: 245px;
 }#footer-trio {
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2%;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2%;
 }
 #navbar {
-    order: 2;
-    width: 50%;
-    margin-top: 0px;
+  order: 2;
+  width: 50%;
+  margin-top: 0px;
 }
 footer {
-    height: 515px;
+  height: 515px;
 }
